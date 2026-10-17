@@ -8,7 +8,8 @@ Colocar a imagem do corpo do site abaixo do texto
 No modo celular:
 Diminuir o tamanho da logo do cabeçalho
 Remover o item Informação 1 e Informação 2 do cabeçalho
--------------------------------------------------------
+
+--------------------------------------------------------
 ***16/10/2026***
 Adicione novos elementos à página desenvolvida.
 Não remova nem substitua os elementos existentes. As novas funcionalidades devem ser acrescentadas ao projeto.
