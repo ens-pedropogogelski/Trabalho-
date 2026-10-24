@@ -5,7 +5,6 @@
     --nav: #384384;
     --card: rgba(217, 217, 217, 0.5);
     --text: #ffffff;
-    --more: #101f78;
 
     --container: 1920px;
     --gutter: clamp(16px, 4vw, 80px);
@@ -87,7 +86,9 @@ a:focus-visible {
     align-items: center;
     gap: var(--gap);
     padding:
-        clamp(12px, 1.6vw, 30px) var(--gutter) clamp(28px, 3vw, 56px);
+        clamp(12px, 1.6vw, 30px)
+        var(--gutter)
+        clamp(28px, 3vw, 56px);
     background: var(--header-1);
     border-radius: 0 0 var(--radius-lg) var(--radius-lg);
 }
@@ -120,7 +121,9 @@ a:focus-visible {
     z-index: 1;
     background: var(--header-2);
     opacity: 0.8;
-    border-radius: 0 0 calc(var(--radius-lg) * 1.4) calc(var(--radius-lg) * 1.4);
+    border-radius: 0 0
+        calc(var(--radius-lg) * 1.4)
+        calc(var(--radius-lg) * 1.4);
 }
 
 
@@ -267,33 +270,6 @@ a:focus-visible {
     height: clamp(28px, 2.8vw, 54px);
     object-fit: contain;
     flex-shrink: 0;
-}
-
-.detalhes {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 30px;
-    background-color: var(--more);
-    padding: 20px;
-}
-
-.detalhes details {
-    width: 250px;
-    padding: 15px;
-    background-color: var(--card);
-    border-radius: 10px;
-}
-
-.detalhes summary {
-    cursor: pointer;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.detalhes details p {
-    margin-top: 10px;
-    line-height: 1.5;
 }
 
 .contact-wrap {
@@ -662,28 +638,9 @@ a:focus-visible {
     .footer-social {
         justify-self: center;
     }
-
-        .detalhes {
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-        padding: 20px 16px;
-    }
-
-    .detalhes details {
-        width: 100%;
-        max-width: 400px;
-        flex: none;
-    }
-
-    .detalhes summary {
-        font-size: 20px;
-    }
 }
 
-
 @media (prefers-reduced-motion: reduce) {
-
     *,
     *::before,
     *::after {
