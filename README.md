@@ -29,3 +29,16 @@ Um texto explicativo.
 Um botão ou link.
 Estilização CSS própria.
 Ajustes de tamanho, espaçamento e alinhamento para telas menores.
+
+--------------------------------------------------------------
+***23/10/2026***
+Crie uma seção com pelo menos três perguntas e respostas relacionadas ao tema do site.
+Utilize HTML semântico para organizar o conteúdo.
+Apresente as perguntas e respostas de forma organizada.
+Garanta que os textos sejam legíveis em celulares e tablets.
+Utilizar as tags <details> e <summary> para permitir que as respostas sejam expandidas e recolhidas sem JavaScript.
+Bibliografia: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/summary
+
+
+**ENVIO**
+Anexar um print do site desenvolvido, aberto no navegador da internet e, nos comentários, colocar o link do GitHub do projeto (o repositório deverá estar público).
